@@ -65,4 +65,3 @@ lr.on("end", () => {
   return sortedResult;
 });
 
-// ./benchmark.sh test.csv
