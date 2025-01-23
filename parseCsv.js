@@ -62,5 +62,7 @@ lr.on("end", () => {
       return acc;
     }, {});
 
-  console.log(sortedResult);
+  return sortedResult;
 });
+
+// ./benchmark.sh test.csv
